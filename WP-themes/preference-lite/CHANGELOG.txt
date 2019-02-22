@@ -1,0 +1,67 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+
+Copyright 2012-2013 StyledThemes.com
+
+	
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(Feburary 27, 2013) - Bug fix and improvements - Version 1.6.2
+[*] - Changed the functions.php file for thumbnail sizes - removed conflicting thumbnail dimensions
+[+] - Added link colour and hover colour settings in the customizer for the sidebar right column: theme-customizer.php and functions.php changed.
+[*] - Updated the language .pot file with new strings
+
+----
+
+(Feburary 27, 2013) - Bug fix and improvements - Version 1.6.1
+[!] - Fixed a naming issue with the functions.php file that affected the displaying of bottom and footer widgets.
+[!] - Fixed the front-page.php template file because it was loading the blog right sidebar instead of the page right sidebar
+
+----
+
+(Feburary 21, 2013) - Bug fix and improvements - Version 1.6
+[!] - Fixed language translation ability for the date in content.php, content-status.php, content-single.php, and functions.php
+[+] - Added proper language text domain to the content-single.php page which was incorrect and not translating
+[+] - Added styling for the active main menu colour and for the linked Site Title colour on hover. Modified header.php and functions.php
+[+] - Added colour custom setting to the customizer.php for image bottom borders
+[*] - Rebuilt the language .pot and .mo files with changes to the date translation strings and for the added image border style option
+[*] - Changed from Microsoft Yi Baiti font to Oxygen Light for License usage with Google Fonts
+
+----
+
+(Feburary 7, 2013) - Bug fix and improvements - Version 1.4
+[!] - Fixed an error with post thumbnails in the functions.php was incorrectly coded
+[*] - Changed the copyright date to being dynamic and the copyright name to be whatever the site title is
+
+----
+
+(Feburary 5, 2013) - Bug fix and improvements - Version 1.3
+[!] - Fixed the comment form coding by rebuilding it in the functions.php file which was breaking the page layout
+
+----
+
+(Feburary 3, 2013) - Bug fix and improvements - Version 1.2
+[!] - Fixed the page top bar theme option border colour which was inheriting another setting
+[+] - Added the image.php file which displays attachments. Brought over from the Pro version of Preference.
+[*] - Updated the CHANGELOG which did not reflect changes from v1.1
+
+----
+
+(February 2, 2013) - Core File Improvements - Version 1.1
+[*] - Updated the file header information with license and copyright
+[*] - Renamed the theme from Preference to Preference Lite
+
+----
+
+(November 20, 2012) Version 1.0 Styled Themes <www.styledthemes.com>
+Initial Release

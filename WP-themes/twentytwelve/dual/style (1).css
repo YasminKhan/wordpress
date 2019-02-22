@@ -1,0 +1,89 @@
+/*
+Theme Name: Dual
+Theme URI: http://yasminshamsudin.com
+Author: Yasmin
+Author URI: http://yasminshamsudin.com
+Description: Child Theme of 2012 with two columns
+Version: .6
+Template: twentytwelve
+Tags: white, light, two-columns, right-sidebar, responsive-width, custom-background, custom-menu, microformats, post-formats, rtl-language-support, translation-ready
+*/
+
+@import url("../twentytwelve/style.css");
+
+#dual .entry-content {
+  text-align: justify;
+  -moz-column-width: 20em; 
+  -moz-column-gap: 40px; 
+  -moz-column-rule: 1px solid #c4c8cc; 
+  -webkit-column-width: 20em; 
+  -webkit-column-gap: 40px; 
+  -webkit-column-rule: 1px solid #c4c8cc; 
+  column-width: 20em;; 
+  column-gap: 40px; 
+  column-rule: 1px solid #c4c8cc;
+}
+
+.entry-content blockquote,
+.comment-content blockquote {
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+	padding: 24px;
+	padding: 1.714285714rem;
+	font-style: italic;
+}
+
+
+/* =Post formats
+-------------------------------------------------------------- */
+
+article.format-aside .aside {
+  padding: 24px 24px 0 24px;
+  padding:  1.714285714rem 1.714285714rem 0 1.714285714rem;
+  background: #f8dbfb;
+  border-left: 22px solid #d3bdeb;
+}
+article.format-aside p {
+  margin: 0;
+  padding-bottom: 24px;
+  padding-bottom: 1.714285714rem;
+  font-size: 13px;
+  font-size: 0.928571429rem;
+  line-height: 1.846153846;
+  color: #655b6f;
+}
+
+/* content-quote.css.scss
+ * Quote post styling
+ * ------------------------------------------------------------------ */
+article.format-quote .entry-content {
+  margin: 0;
+  padding-bottom: 24px;
+  padding-bottom: 1.714285714rem;
+  text-align: justify;
+  -moz-column-width: 20em; 
+  -moz-column-gap: 40px; 
+  -moz-column-rule: 1px solid #c4c8cc; 
+  -webkit-column-width: 20em; 
+  -webkit-column-gap: 40px; 
+  -webkit-column-rule: 1px solid #c4c8cc; 
+  column-width: 20em;; 
+  column-gap: 40px; 
+  column-rule: 1px solid #c4c8cc;
+}
+article.format-quote .entry-content blockquote {
+  display: block;
+  padding: 24px 24px 0 24px;
+  padding:  1.714285714rem 1.714285714rem 0 1.714285714rem;
+  font-size: 15px;
+  font-size: 1.071428571rem;
+  line-height: 1.6;
+  font-style: normal;
+  color: #6a6a6a;
+  background: #efefef;
+}
+
+.commentlist .children {
+	margin-left: 24px;
+	margin-left: 3.428571429rem;
+}

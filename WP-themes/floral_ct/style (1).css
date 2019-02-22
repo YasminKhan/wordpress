@@ -1,0 +1,148 @@
+/*
+Theme Name: Floral
+Theme URI: http://yasminshamsudin.com
+Author: Yasmin Shamsudin
+Author URI: http://yasminshamsudin.com/
+Description: Floral is a child theme of Bouquet by Automattic
+Version: 1.0
+Tags: blue, orange, pink, white, light, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, full-width-template, post-formats, rtl-language-support, translation-ready
+Template: bouquet
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import url("../bouquet/style.css");
+
+.aside #content {
+	background: #edf6fe;
+}
+.aside #main .widget-area {
+	background: #d0e6fa;
+}
+.aside. body {
+	background: url(body-bg.png) #2f5480;
+}
+.aside input#s {
+	background: #bdc6d1 url(search-bg.png) no-repeat 10px 8px;
+	border-color: #5175b3;
+	color: #1d446d;
+}
+.aside #primary input#s {
+	background: #fafafa url(search-bg.png) no-repeat 10px 8px;
+	border: 1px solid #1d446d;
+}
+.aside a {
+	color: #123b66;
+}
+.aside #branding {
+	background-image: url(forget-me-not-header.png);
+}
+.aside #site-title a,
+.aside #site-title a:hover {
+	color: #123b66;
+}
+.aside #site-description {
+	color: #506f9e;
+}
+.aside #access {
+	background: #5175b3;
+}
+.aside #access a {
+	color: #cadeff;
+}
+.aside #access a:hover {
+	background: #264f89;
+	color: #def0fd;
+}
+.aside #access ul ul a {
+	background: #264f89;
+	color: #fff4f9;
+}
+.aside #access li:hover > a,
+.aside #access ul ul :hover > a,
+.aside #access ul ul a:hover {
+	background: #264f89;
+	color: #def0fd;
+}
+.aside #search-area {
+	background: #93a9d0;
+}
+.aside .entry-title a {
+	color: #205e9f;
+}
+.aside .entry-title a:hover {
+	color: #1a4f87;
+}
+.aside .entry-date {
+	background: #edf6fe;
+}
+.aside .entry-date a {
+	color: #63724b;
+}
+.aside .entry-content table,
+.aside .entry-content tr td {
+	border-color: #acc2d6;
+}
+.aside .entry-content tr.odd td,
+.aside .entry-content pre,
+.aside .entry-content ins {
+	background: #d0e6fa;
+}
+.aside .entry-content hr {
+	background-color: #cdd6dd;
+}
+.aside .entry-meta {
+	color: #63724b;
+}
+.aside .page-link a {
+	background-color: #5175b3;
+}
+.aside .page-link a:hover {
+	background-color: #264f89;
+}
+.aside #primary .post .notice,
+.aside #primary .error404 #searchform {
+	background: #d7e0e7;
+}
+.aside #comments article {
+	border-color: #d3e4f7;
+}
+.aside #comments-title {
+    color: #63724b;
+}
+.aside .nopassword,
+.aside .nocomments {
+	color: #bbb9a8;
+}
+.aside #comments li {
+	background: #e8f1f8;
+}
+.aside .bypostauthor .avatar {
+	background: #d0e6fa;
+}
+.aside #respond h3 {
+	color: #63724b;
+}
+.aside .comment-reply-link {
+    background-color: #dfe8ef;
+}
+.aside .comment-reply-link:hover {
+	background: #cfd8dd;
+}
+.aside .widget-title,
+.aside .widget-title a {
+	color: #63724b;
+}
+.aside .widget ul li {
+	border-color: #b0d5f8;
+}
+.aside #site-generator {
+	color: #e5eef6;
+}
+.aside #site-generator a {
+	color: #9ebcef;
+}
+.aside #ie8 .entry-date {
+	background: #edf6fe;
+}

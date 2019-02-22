@@ -1,0 +1,332 @@
+/*  
+
+Theme Name: Personal-blog-beta
+
+Theme URI: http://yasminshamsudin.com
+
+Description: A pink and grey blog theme with one sidebar.
+
+Version: 1.0
+
+Tags: flexible 2 3 column blog widgetready grey pink
+
+Author: Yasmin
+
+Author URI: http://yasminshamsudin.com/
+
+*/
+
+html, body {
+	height: 100%;
+	background-color: #bbb;
+}
+
+a {
+	text-decoration: none;
+	color: #CD0074;
+}
+
+h2 {
+	font:1.2em andalus,century gothic,arial,verdana,serif;
+	color: #CD0074;
+}
+
+h3 {
+	font: 1.2em ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	color: #fff;
+}
+
+h3-pink {
+	font: 1.2em ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	color: #CD0074;
+}
+
+h3-green {
+	font: 1.2em ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	color: green;
+}
+
+green {
+	color: green;
+}
+
+purple {
+	color: purple;
+}
+
+gray {
+	color: gray;
+}
+
+orange {
+	color: #FF5F00;
+}
+
+
+#header {
+	margin-left:auto;
+	margin-right:auto;
+	width: 950px;
+	height: 212px;
+	border: 5px solid #EE6B9C;
+	border-radius: 15px;
+	background-color: #fff;
+}
+
+#banner {
+	padding-top: 20px; 
+	padding-left: 40px;
+}
+
+.clear {
+	padding: 5px;
+	clear: left;
+}
+
+#searchform {
+	color: #fff;
+	height: 1.2em;
+	}
+
+.page-content {
+	color: #111;
+	width: 960px;
+	margin: 10px auto;
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+}
+
+#topleft-sidebar {
+	width: 300px;
+	height: 125px;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+	list-style-type: none;
+	float: left;
+	background-color: #fff;
+	margin-right: 0;
+	padding-left: 5px;
+	border-top: 5px solid #CD0074;
+	border-left: 5px solid #CD0074;
+	border-bottom: 2px solid #CD0074;
+	border-right: 2px solid #CD0074;
+	border-radius: 9px;
+}
+
+#top-sidebar {
+	width: 640px;
+	height: 125px;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+	list-style-type: none;
+	float: left;
+	background-color: #fff;
+	margin-right: 0;
+	border-top: 5px solid #CD0074;
+	border-left: 3px solid #CD0074;
+	border-bottom: 2px solid #CD0074;
+	border-right: 5px solid #CD0074;
+	border-radius: 9px;
+}
+
+#lower-sidebar-area {
+	width: 312px;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: gray;
+	list-style-type: none;
+	float: left;
+	background-color: #bbb;
+	margin-right: 0;
+}
+
+#left-sidebar {
+	background-color: #fff;
+	border-top: 3px solid #CD0074;
+	border-left: 5px solid #CD0074;
+	border-bottom: 3px solid #CD0074;
+	border-right: 2px solid #CD0074;
+	border-radius: 9px;
+	margin-right: 0;
+	padding-left: 5px;
+}
+
+#left-sidebar ul {
+	list-style-type: square;
+}
+#left-sidebar-green{
+	border-color: green;
+}
+
+#left-sidebar-green h2{
+	color: green;
+}
+
+.post-head {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image.jpg); repeat-x; repeat-y; top center;
+}
+
+.post-head-green {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image-green.jpg); repeat-x; repeat-y; top center;
+	color: gray;
+}
+
+.post-head-purple {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image-purple.jpg); repeat-x; repeat-y; top center;
+	color: gray;
+}
+
+.post-head-gray {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image-gray.jpg); repeat-x; repeat-y; top center;
+	color: gray;
+}
+
+.post-head-orange {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image-orange.jpg); repeat-x; repeat-y; top center;
+	color: white;
+}
+	
+#main-content {   
+	float: right;	
+	margin-left: 0;
+	margin-bottom: 10px;
+	width: 620px;
+	padding: 5px 1%;
+	list-style-type: none;
+	border-top: 3px solid #D2006B;
+	border-left: 3px solid #D2006B;
+	border-bottom: 5px solid #D2006B;
+	border-right: 5px solid #D2006B;
+	border-radius: 9px;
+	background-color: #fff;
+	color: #111;
+}
+
+.one-column {
+	width: 95%;
+	padding: 0 2%;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	clear: left;
+}
+
+.two-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	clear: left;
+	color: black;
+	}
+
+.two-columns a {
+	color: #CD0074;
+}
+
+.two-columns-main {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0;
+	clear: left;
+	color: black;
+	margin-top: 0;
+	}
+	
+div.two-columns-main div {
+	text-align: left;
+	float: left;
+	width: 45%;
+	padding: 0 2%;
+}
+
+.main-excerpt {
+	text-align: left;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	float: left;
+	width: 60%;
+	padding: 0 1%;
+	border-right: 1px dotted grey;
+}
+.main-related {
+	text-align: left;
+	float: right;
+	width: 35%;
+	padding: 0 1%;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+}
+
+.three-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	border-top: 1px dotted gray;
+	clear: left;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	}
+
+.three-columns a {
+	color: #CD0074;
+}
+
+div.three-columns div {
+	text-align: left;
+	float: left;
+	width: 28%;
+	padding: 1% 2%;
+}
+
+.center-column {
+	border-left: 1px dotted gray;
+}
+
+.right-column {
+	border-left: 1px dotted gray;
+}
+
+.postmetadata {
+	font: 0.8em century gothic,arial,verdana,serif;
+	text-align: center;
+	clear: left;
+	}
+
+#footer-area {
+	margin: 10px auto;
+	height: 50px;
+	width: 950px;
+	background-color: #fff;
+	border: 5px solid #CD0074;
+	border-radius: 15px;
+	clear: both;
+}
+
+#footer {
+	text-align: center;
+	font:0.8em century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}

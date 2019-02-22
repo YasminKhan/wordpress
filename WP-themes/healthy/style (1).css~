@@ -1,0 +1,286 @@
+/*  
+
+Theme Name: Healthy
+
+Theme URI: http://yasminshamsudin.com
+
+Description: A pink magazine theme with two sidebars on the right hand side.
+
+Version: 1.0
+
+Tags: flexible 2 3 4 column magazine healthy widgetready white pink
+
+Author: Yasmin
+
+Author URI: http://yasminshamsudin.com/
+
+*/
+
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}  
+  
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+    display: block;  
+}  
+
+html, body {
+	height: 100%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font:18pt century,arial,verdana,serif;
+	font-weight: bold;
+	color: #111;
+	text-decoration: none;
+}
+
+h3 {
+	font: 16pt century,arial,verdana,serif;
+	color: #111;
+}
+
+.clear {
+	clear: left;
+    height: 3px;
+}
+
+hr {
+	border: 0;
+    height: 3px;
+    background: #CE157E;
+    background-image: -webkit-linear-gradient(left, #ccc, #CE157E, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #CE157E, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #CE157E, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #CE157E, #ccc);
+}
+
+#content {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	min-width: 600px;
+	border-radius: 15px;
+	border: 5px solid #CE157E;
+}
+
+#banner {
+	height: 50px;
+	background-color: #da188d;
+	border-top: radius 16px;
+	padding-top: 30px;
+	font:50px century,arial,verdana,serif;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: center;
+	list-style-type: none; 
+	list-style-image: none;
+}
+
+#searchbar{
+	height: 30px;
+	padding-top: 20px;
+	background-color: #da188d;
+	list-style-type: none; 
+	list-style-image: none;
+}
+
+#searchform {
+	color: #fff;
+	float: right;
+	}
+
+#navbar {   
+	height: 30px;
+	padding-top: 5px;
+	border-top: 5px solid #CE157E;
+	border-bottom: 5px solid #CE157E;
+	background-color: pink;
+	color: #111; 
+	font:14pt Cambria,Calibri,Arial,century gothic,Andalus,Courier;
+	font-weight: bold;
+}
+
+#navbar ul {  
+	margin: 0; 
+	padding: 0 20px; 
+	list-style-type: none; 
+	list-style-image: none;
+   display: inline-block;; 
+}
+
+nav ul li {  
+   float: left; 
+   text-decoration: none; 
+}  
+      
+nav ul li a {  
+   display: block;  
+   padding: 0 20px 0 0;  
+   text-align: center;  
+   text-decoration: none; 
+   font:14pt Cambria,Calibri,Arial,century gothic,Andalus,Courier;  
+   font-weight: bold;
+}  
+      
+nav ul li a:hover {  
+   color: #fff; 
+   background-color: black;
+}  
+      
+nav ul li.selected a {  
+   color: #fff;  
+}  
+
+#front-main-content {   
+	margin-left: 0;
+	float: left;
+	width: 50%;
+	min-width: 300px;
+	padding: 0 20px;
+	list-style-type: none;
+	border-right: 5px solid #CE157E;
+	color: #111;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#main-content {   
+	margin-left: 0;
+	float: left;
+	width: 70%;
+	min-width: 420px;
+	padding: 0 10px;
+	list-style-type: none;
+	border-right: 5px solid #CE157E;
+	color: #111;
+}
+
+.one-column {
+	width: 95%;
+	padding: 0 2%;
+	font: 12pt calibri,century,arial,verdana,serif;
+	color: black;
+	clear: left;
+}
+
+.two-columns {
+	color: black;
+	clear: left;
+	}
+
+div.two-columns div {
+	text-align: left;
+	float: left;
+	width: 45%;
+	min-width: 120px;
+	padding: 0 2%;
+	font: 12pt calibri,century,arial,verdana,serif;
+	font-style: italic;
+}
+
+.left-column{
+	border-right: 2px solid #CE157E;
+}
+
+#front-sidebar {
+	width: 40%;
+	min-width: 240px;
+	float: left;
+	padding: 0 1%;
+}
+
+.sidebar-normal {
+	width: 18%;
+	min-width: 100px;
+	float: left;
+	padding: 0 1%;
+}
+
+#left-sidebar {
+	font: 12pt calibri,century gothic,arial,verdana,serif;
+	text-align: left;
+	float: left;
+	width: 45%;
+   list-style-type: none; 
+	list-style-image: none;
+	padding: 0 2%;
+}
+
+#front-right-sidebar {
+	font: 12pt calibri,century gothic,arial,verdana,serif;
+	text-align: left;
+	float: left;
+	width: 45%;
+   list-style-type: none; 
+	list-style-image: none;
+	padding: 0 2%;
+}
+
+#right-sidebar {
+	font: 12pt calibri,century gothic,arial,verdana,serif;
+	width: 98%;
+   list-style-type: none; 
+	list-style-image: none;
+	padding-left: 2%; 
+}
+
+#right-sidebar h2 {
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+}
+
+#right-sidebar li {
+	font: 0.9em calibri,century gothic,arial,verdana,serif;
+}
+	
+.month_archive {
+    border_bottom: 2px solid #CE157E;
+}
+
+.postmetadata {
+	font: 0.8em century gothic,arial,verdana,serif;
+	text-align: center;
+	clear: left;
+	}
+	
+.like-box{
+	font: 14px century,arial,verdana,serif;
+	font-weight: bold;
+}
+
+footer {
+	margin-left:auto;
+	margin-right:auto;
+	height: 100%;
+	min-height: 200px;	
+	text-align: center;
+	font: 12px century gothic,arial,verdana,serif;
+	color: #111;
+	border-top: 5px solid #CE157E;
+	list-style-type: none; 
+	list-style-image: none;
+	clear: both;
+}
+
+footer div {
+	text-align: left;
+	float: left;
+	width: 21%;
+	min-width: 120px;
+	padding: 0 2%;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}

@@ -1,0 +1,29 @@
+/*
+Theme Name: MesoColumn-child
+Theme URI: http://www.dezzain.com/wordpress-themes/mesocolumn/
+Description: Mesocolumn is a HTML5 and CSS3 WordPress Theme. The theme also support BuddyPress, BBPress and WooCommerce and comes with Unlimited Color with Categorize Color Setup and 600+ Google Webfonts Selection. With a responsive mobile friendly design its compatible with devices like Desktop, Tablet, small phone, i-Pad, iPhone, and Android Phones.
+Version: 1.0
+Author: Richie KS & Yasmin Shamsudin
+Author URI: http://www.dezzain.com
+License: GNU General Public License
+License URI: http://www.opensource.org/licenses/gpl-license.php
+Tags: buddypress,white,two-columns,three-columns,right-sidebar,flexible-width,flexible-header,editor-style,custom-menu,custom-header,custom-background,featured-images,full-width-template,theme-options,threaded-comments,translation-ready
+Template: mesocolumn
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import url("../mesocolumn/style.css");
+
+*/
+
+/*
+changelog
+v1.1
+- changed the default excerpt lengths in lib/templates/home-feat-cat
+
+v1.0
+- initial release
+
+*/

@@ -1,0 +1,235 @@
+/*  
+
+
+
+Theme Name: Organized-pink-personal
+
+Theme URI: http://yasminshamsudin.com
+
+Description: A magazine like pink theme inspired by miloIIIIVII Nature theme.
+
+Version: 1.0
+
+Tags: flexible 4 column widgetready white black pink
+
+Author: Yasmin
+
+Author URI: http://yasminshamsudin.com/
+
+
+
+*/
+
+#header {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height: 50px;
+	background-image: url(images/bg-pink.jpg); repeat-x; top center;
+}
+
+ul {
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none;
+	color: #CD0074;
+}
+
+h2 {
+	font:1.4em andalus,century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+html, body {
+	height: 100%;
+}
+
+#navigationbar {
+	margin: 0;
+	color: #fff; 
+	font:1.4em Calibri,Arial,century gothic,Andalus,Courier;
+	list-style-type: none;
+}
+
+#homebutton a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#homebutton a:hover { <!-- when hovering over the "Home" menu in the navigation bar -->
+	color: #fff;
+	background-color: #CD0074;
+}
+
+#navigationbar li {
+	float: left;
+	padding: 5px;
+	z-index:1;
+	position: relative;
+	}
+
+#navigationbar li:hover { <!-- when hovering over the navigation bar -->
+	display: block;
+	color: #fff;
+	background-color: #CD0074; 
+	}
+
+#navigationbar li ul { <!-- drop-down menu -->	
+	z-index:1;
+	display: none;	
+	white-space: nowrap;
+	font:0.6em Arial,Courier;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 100%;
+	width: auto;
+	}	
+	
+#navigationbar li:hover ul {
+	display: block;
+	background-color: #111;
+	padding: 0 2px;
+	}
+
+#navigationbar li ul a {
+	display: block;	
+	color: #fff;
+	padding: 0 2px;
+	}	
+	
+#navigationbar li ul li { <!-- the drop-down menu -->
+	display: block;
+	background-color: #111;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	float: none;
+	}	
+	
+#navigationbar li:hover ul:hover a:hover { <!-- when hovering over the drop-down menu -->
+	display: block;
+	color: #fff;
+	background-color: #CD0074; 
+	}
+	
+#searchform {
+	background-color: #111;
+	color: #fff;
+	height: 1.4em;
+	}
+
+#banner {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height: 200px;
+	background-image: url(images/banner.jpg); no-repeat; top center;
+	font:50px century gothic,arial,verdana,serif;
+	color: #111;
+	text-align: center;
+}
+
+.page-content {
+	color: #111;
+	background-color: #fff;
+	width: 80%;
+	margin: 5px auto;
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	font: 1.0em century gothic,arial,verdana,serif;
+}
+
+#left-sidebar {
+	float: left;
+	width: 20%;
+}
+
+#right-sidebar {
+	float: right;
+	width: 20%;
+}
+
+.sidebar {
+	width: 100%;
+	text-decoration: none;
+}
+.sidebar h2 {
+	font: 1.0em century gothic,arial,verdana,serif;
+}
+
+.sidebar li a {
+	font: 0.8em century gothic,arial,verdana,serif;
+}
+
+.wide-post {
+	margin-left: 25%;
+	width: 50%;
+}
+
+.postmetadata {
+	font: 0.8em century gothic,arial,verdana,serif;
+	text-align: center;
+	clear: both;
+	}
+
+.clear {
+	padding: 5px;
+	clear: both;
+}
+
+.four-column-row {
+	height: 48%;
+}
+
+div.four-column-row div {
+	text-align: left;
+	float: left;
+	width: 23%;
+	padding: 1%;
+}
+
+.two-columns {
+	text-align: left;
+	float: left;
+	width: 58%;
+	padding: 1%;
+	}
+
+.two-columns h3 {
+	font: 16px bold calibri,century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+div.two-columns div {
+	text-align: left;
+	float: left;
+	width: 44%;
+	padding: 1% 3%;
+}
+
+#footer-area {
+	margin-left:auto;
+	margin-right:auto;
+	height: 50px;
+	width: 80%;
+	clear: both;
+}
+
+#footer-image {
+	height: 20%;	
+	text-align: center;
+	background-image: url(images/footer-line-pink.jpg); repeat-x; top center;	
+}
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	height: 80%;	
+	text-align: center;
+	font:14px century gothic,arial,verdana,serif;
+	color: #111;
+}

@@ -1,0 +1,210 @@
+/*  
+
+Theme Name: Personal-blog-beta
+
+Theme URI: http://yasminshamsudin.com
+
+Description: A pink and grey blog theme with one sidebar.
+
+Version: 1.0
+
+Tags: flexible 2 3 column blog widgetready grey pink
+
+Author: Yasmin
+
+Author URI: http://yasminshamsudin.com/
+
+*/
+
+html, body {
+	height: 100%;
+	background-color: gray;
+}
+
+a {
+	text-decoration: none;
+	color: #CD0074;
+}
+
+h2 {
+	font:1.2em andalus,century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+h3 {
+	font:1.4em calibri,century gothic,arial,verdana,serif;
+	color: #fff;
+}
+
+h3-pink {
+	font:1.4em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+}
+
+#banner {
+	margin-left:auto;
+	margin-right:auto;
+	width: 1100px;
+	height: 165px;
+	background-image: url(images/bannerbg.jpg); top center;
+	color: #111;
+	text-align: center;
+}
+
+.clear {
+	padding: 5px;
+	clear: left;
+}
+
+#header {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	height: 10px;
+}
+
+#searchform {
+	color: #fff;
+	height: 1.2em;
+	}
+
+.page-content {
+	color: #111;
+	background-color: #fff;
+	width: 800px;
+	margin: 10px auto;
+	border-right: 5px solid pink;
+	border-left: 5px solid pink;
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+}
+
+#left-sidebar {
+	float: left;
+	margin-right: 0;
+	width: 30%;
+	padding: 0 10px;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+	list-style-type: square;
+}
+
+#left-sidebar li {
+	list-style-position: inside;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.post-head {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image.jpg); repeat-x; repeat-y; top center;
+}
+	
+#main-content {   
+	float: right;	
+	margin-left: 0;
+	width: 65%;
+	padding: 0 1%;
+	list-style-type: none;
+	border-right: 1px solid pink;
+	color: #111;
+}
+
+.one-column {
+	width: 95%;
+	padding: 0 2%;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	clear: left;
+}
+
+.two-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	clear: left;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	}
+
+.two-columns a {
+	color: #CD0074;
+}
+
+div.two-columns div {
+	text-align: left;
+	float: left;
+	width: 45%;
+	padding: 0 2%;
+}
+
+.three-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	clear: left;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	}
+
+.three-columns a {
+	color: #CD0074;
+}
+
+div.three-columns div {
+	text-align: left;
+	float: left;
+	width: 28%;
+	padding: 1% 2%;
+}
+
+.center-column {
+	border-left: 1px solid pink;
+}
+
+.right-column {
+	border-left: 1px solid pink;
+}
+
+.postmetadata {
+	font: 0.8em century gothic,arial,verdana,serif;
+	text-align: center;
+	clear: left;
+	}
+
+#footer-area {
+	margin-left:auto;
+	margin-right:auto;
+	height: 50px;
+	width: 80%;
+	clear: both;
+}
+
+#footer-image {
+	height: 20%;	
+	text-align: center;
+	background-image: url(images/footer-line-pink.jpg); repeat-x; top center;	
+}
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	height: 80%;	
+	text-align: center;
+	font:0.8em century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}

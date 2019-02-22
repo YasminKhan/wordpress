@@ -1,0 +1,320 @@
+/*  
+
+Theme Name: Magazine-blog-beta
+
+Theme URI: http://yasminshamsudin.com
+
+Description: A pink magazine theme with two sidebars on the right hand side.
+
+Version: 1.0
+
+Tags: flexible 2 3 4 column magazine widgetready white pink
+
+Author: Yasmin
+
+Author URI: http://yasminshamsudin.com/
+
+*/
+
+html, body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #CD0074;
+}
+
+h2 {
+	font:1.2em andalus,century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+h3 {
+	font:1.4em calibri,century gothic,arial,verdana,serif;
+	color: #fff;
+}
+
+h3-pink {
+	font:1.4em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+}
+
+#banner {
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	height: 165px;
+	background-image: url(images/banner2.jpg); no-repeat; top center;
+	font:50px century gothic,arial,verdana,serif;
+	color: #111;
+	text-align: center;
+}
+
+.clear {
+	padding: 5px;
+	clear: left;
+}
+
+#header {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	height: 30px;
+	background-image: url(images/post-header-image-white-up.jpg); repeat-x; top center;
+}
+
+#navigationbar {
+	margin: 0;
+	color: #111; 
+	font:1.2em Calibri,Arial,century gothic,Andalus,Courier;
+	list-style-type: none;
+}
+
+#homebutton a {
+	color: #111;
+	text-decoration: none;
+}
+
+#homebutton a:hover { <!-- when hovering over the "Home" menu in the navigation bar -->
+	color: #111;
+	background-color: #E667AF;
+}
+
+#navigationbar li {
+	float: left;
+	padding: 5px;
+	z-index:1;
+	position: relative;
+	}
+
+#navigationbar li:hover { <!-- when hovering over the navigation bar -->
+	display: block;
+	color: #111;
+	background-color: #E667AF; 
+	}
+
+#navigationbar li ul { <!-- drop-down menu -->	
+	z-index:1;
+	display: none;	
+	white-space: nowrap;
+	font: 0.8em Calibri,Arial,Courier;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 100%;
+	width: auto;
+	}	
+	
+#navigationbar li:hover ul {
+	display: block;
+	background-color: #E667AF;
+	padding: 0 2px;
+	}
+
+#navigationbar li ul a {
+	display: block;	
+	color: #111;
+	padding: 0 2px;
+	}	
+	
+#navigationbar li ul li { <!-- the drop-down menu -->
+	display: block;
+	background-color: #E667AF;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	list-style-type: none;
+	float: none;
+	}	
+	
+#navigationbar li:hover ul:hover a:hover { <!-- when hovering over the drop-down menu -->
+	display: block;
+	color: #111;
+	background-color: #E667AF; 
+	}
+	
+#searchform {
+	color: #fff;
+	height: 1.2em;
+	}
+
+.page-content {
+	color: #111;
+	background-color: #fff;
+	width: 80%;
+	margin: 10px auto;
+	border-right: 1px solid pink;
+	border-left: 1px solid pink;
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+}
+
+#sidebar-area {
+	float: right;
+	margin-right: 0;
+	width: 40%;
+	padding: 0 10px;
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	color: #CD0074;
+	list-style-type: square;
+}
+
+#sidebar-area a {
+	color: #CD0074;
+}
+
+#left-sidebar {
+	float: left;
+	margin-right: 0;
+	width: 46%;
+	padding: 0 1%;
+}
+
+#left-sidebar li {
+	list-style-position: inside;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#right-sidebar {
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+	float: right;
+	margin-right: 0;
+	width: 46%;
+   list-style-type: none;
+	padding: 0 1%;
+	border-left: 1px solid pink;
+}
+
+#right-sidebar h2 {
+	font: 1.0em calibri,century gothic,arial,verdana,serif;
+}
+
+#right-sidebar li {
+	font: 0.9em calibri,century gothic,arial,verdana,serif;
+}
+
+.post-head {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	background-image: url(images/post-header-image.jpg); repeat-x; repeat-y; top center;
+}
+	
+#main-content {   
+	margin-left: 0;
+	width: 55%;
+	padding: 0 2%;
+	list-style-type: none;
+	border-right: 1px solid pink;
+	color: #111;
+}
+
+#featured-post {
+   float: left;	
+   width: 95%;
+	padding: 0 2%;
+	border: 3px solid pink;
+}
+
+#featured-post li h2 {
+	font: 1.2em andalus,century gothic,arial,verdana,serif;
+		color: #CD0074;
+}
+
+.one-column {
+	width: 95%;
+	padding: 0 2%;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	clear: left;
+}
+
+.two-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	clear: left;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	}
+
+.two-columns a {
+	color: #CD0074;
+}
+
+div.two-columns div {
+	text-align: left;
+	float: left;
+	width: 45%;
+	padding: 0 2%;
+}
+
+.three-columns {
+	text-align: left;
+	float: left;
+	width: 95%;
+	padding: 0 2%;
+	clear: left;
+	font: 0.8em calibri,century gothic,arial,verdana,serif;
+	color: black;
+	}
+
+.three-columns a {
+	color: #CD0074;
+}
+
+div.three-columns div {
+	text-align: left;
+	float: left;
+	width: 28%;
+	padding: 1% 2%;
+}
+
+.center-column {
+	border-left: 1px solid pink;
+}
+
+.right-column {
+	border-left: 1px solid pink;
+}
+
+.postmetadata {
+	font: 0.8em century gothic,arial,verdana,serif;
+	text-align: center;
+	clear: left;
+	}
+
+#footer-area {
+	margin-left:auto;
+	margin-right:auto;
+	height: 50px;
+	width: 80%;
+	clear: both;
+}
+
+#footer-image {
+	height: 20%;	
+	text-align: center;
+	background-image: url(images/footer-line-pink.jpg); repeat-x; top center;	
+}
+
+#footer {
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	height: 80%;	
+	text-align: center;
+	font:0.8em century gothic,arial,verdana,serif;
+	color: #111;
+}
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
